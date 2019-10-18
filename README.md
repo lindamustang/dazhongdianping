@@ -14,7 +14,9 @@ docker run iyjian/dianping-scrapy ./dianpinglun1.py
 
 ## 1.dianpingsrapy（使用scrapy框架）
 
-用于爬取大众点评店铺分类页面的一些内容，仅作本人测试使用。经测试，随着爬取次数的增加，scrapy框架会渐渐失效，原因不明。之前的爬取结果都在csv文件里。在控制台输入scrapy crawl dianping  便可执行。
+用于爬取大众点评店铺分类页面的一些内容，仅作本人测试使用。经测试，随着爬取次数的增加，scrapy框架会渐渐失效，原因不明。之前的爬取结果都在csv文件里。
+
+在控制台输入scrapy crawl dianpingsrapy  便可执行。
 
 ## 2.dianpinglun1和dianpinglun2
 
