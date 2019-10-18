@@ -87,7 +87,6 @@ def get_review():
     css_url = 'http:' + re.findall(re_url,text,re.S)[1]
     ttf_list,name = get_ttf_list(css_url)
     uni_dict = dict(zip(ttf_list,character))
-    print(uni_dict)
     for item in pinglun_list:
         pinglun_item = []
         for item1 in item:
@@ -132,7 +131,6 @@ def get_ttf_list(css_url):
         f.close()
     font = TTFont(name + '.woff')
     uni_list = font['cmap'].tables[0].ttFont.getGlyphOrder()
-    print(uni_list)
     return uni_list,name
 
 
