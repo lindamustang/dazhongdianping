@@ -56,9 +56,7 @@ def get_content(url,headers_pinglun):
         if not pinglun_html:
             pinglun_html = li("div.main-review>div.review-words").html()
         pinglun = pinglun_decode(middle_list,svg_dict,css_dict,pinglun_html)
-
-
-
+        print(pinglun)
 
 
 def get_dict(doc):
